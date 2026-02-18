@@ -155,23 +155,54 @@
 
     <section class="bg-white rounded-2xl shadow-lg p-12 mb-8">
         <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Частые вопросы</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-                <h3 class="font-bold text-lg text-gray-800 mb-2">Как быстро вы отвечаете?</h3>
-                <p class="text-gray-600">Обычно мы отвечаем в течение 1-2 часов в рабочее время. В выходные время ответа может быть увеличено.</p>
-            </div>
-            <div>
-                <h3 class="font-bold text-lg text-gray-800 mb-2">Можно ли прийти в офис?</h3>
-                <p class="text-gray-600">Да, вы можете посетить наш офис для личной консультации. Пожалуйста, запишитесь заранее через форму или по телефону.</p>
-            </div>
-            <div>
-                <h3 class="font-bold text-lg text-gray-800 mb-2">Где смотреть расписание вебинаров?</h3>
-                <p class="text-gray-600">Расписание публикуется в личном кабинете студента и дублируется в Telegram-канале курса.</p>
-            </div>
-            <div>
-                <h3 class="font-bold text-lg text-gray-800 mb-2">Есть ли у вас техподдержка?</h3>
-                <p class="text-gray-600">Да, у нас работает служба технической поддержки, которая помогает решать проблемы с доступом к платформе и видео.</p>
-            </div>
+        <div class="space-y-4">
+            <details class="group bg-gray-50 rounded-xl border border-gray-200 overflow-hidden transition-all duration-300 open:bg-white open:shadow-md open:border-purple-200">
+                <summary class="flex justify-between items-center cursor-pointer p-6 font-semibold text-gray-800 select-none">
+                    <span>Как быстро вы отвечаете?</span>
+                    <span class="ml-4 flex-shrink-0 text-purple-600 transition-transform duration-300 group-open:rotate-180">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                    </span>
+                </summary>
+                <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+                    Обычно мы отвечаем в течение 1-2 часов в рабочее время (с 9:00 до 20:00 по МСК). В выходные и праздничные дни время ответа может быть немного увеличено, но мы стараемся не задерживать ответы более чем на 24 часа.
+                </div>
+            </details>
+
+            <details class="group bg-gray-50 rounded-xl border border-gray-200 overflow-hidden transition-all duration-300 open:bg-white open:shadow-md open:border-purple-200">
+                <summary class="flex justify-between items-center cursor-pointer p-6 font-semibold text-gray-800 select-none">
+                    <span>Можно ли прийти в офис?</span>
+                    <span class="ml-4 flex-shrink-0 text-purple-600 transition-transform duration-300 group-open:rotate-180">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                    </span>
+                </summary>
+                <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+                    Да, вы можете посетить наш офис для личной консультации или встречи с куратором. Пожалуйста, запишитесь заранее через форму на сайте или позвоните нам, чтобы мы могли уделить вам достаточно времени.
+                </div>
+            </details>
+
+            <details class="group bg-gray-50 rounded-xl border border-gray-200 overflow-hidden transition-all duration-300 open:bg-white open:shadow-md open:border-purple-200">
+                <summary class="flex justify-between items-center cursor-pointer p-6 font-semibold text-gray-800 select-none">
+                    <span>Где смотреть расписание вебинаров?</span>
+                    <span class="ml-4 flex-shrink-0 text-purple-600 transition-transform duration-300 group-open:rotate-180">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                    </span>
+                </summary>
+                <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+                    Актуальное расписание всех живых вебинаров публикуется в личном кабинете студента в разделе "Расписание". Также мы дублируем анонсы в нашем закрытом Telegram-канале для студентов за неделю до мероприятия.
+                </div>
+            </details>
+
+            <details class="group bg-gray-50 rounded-xl border border-gray-200 overflow-hidden transition-all duration-300 open:bg-white open:shadow-md open:border-purple-200">
+                <summary class="flex justify-between items-center cursor-pointer p-6 font-semibold text-gray-800 select-none">
+                    <span>Есть ли у вас техподдержка?</span>
+                    <span class="ml-4 flex-shrink-0 text-purple-600 transition-transform duration-300 group-open:rotate-180">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                    </span>
+                </summary>
+                <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+                    Да, у нас работает отдельная служба технической поддержки. Если у вас возникли проблемы с доступом к платформе, оплатой или воспроизведением видео, напишите на support@programming-course.ru, и мы поможем решить вопрос в приоритетном порядке.
+                </div>
+            </details>
         </div>
     </section>
 
