@@ -9,3 +9,7 @@
 * Tailwind
 
 [Ссылка на Pages]<https://pigervegetabilis.github.io/mirea-frontend-7/>
+
+**Карта сайта**
+
+![mindmap](assets/images/mindmap.jpg)
