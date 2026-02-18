@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница не найдена | 404</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-purple-100 min-h-screen flex flex-col font-sans">
+
+    <header class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-8 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-2 text-purple-600 font-bold text-xl hover:opacity-80 transition">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+                На главную
+            </a>
+            <nav class="hidden md:flex gap-6 text-gray-600">
+                <a href="about.html" class="hover:text-purple-600 transition">О курсе</a>
+                <a href="program.html" class="hover:text-purple-600 transition">Программа</a>
+                <a href="prices.html" class="hover:text-purple-600 transition">Цены</a>
+                <a href="contacts.html" class="hover:text-purple-600 transition">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow flex items-center justify-center px-4 py-12">
+        <div class="text-center max-w-2xl">
+
+            <div class="relative mb-8">
+                <h1 class="text-9xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 leading-none select-none">
+                    404
+                </h1>
+                <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-4 w-32 h-32 bg-purple-300 rounded-full blur-3xl opacity-30 -z-10"></div>
+                <div class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-4 w-32 h-32 bg-blue-300 rounded-full blur-3xl opacity-30 -z-10"></div>
+            </div>
+
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Упс! Страница не найдена</h2>
+            
+            <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                Кажется, вы зашли слишком далеко в дебри кода и наткнулись на несуществующую страницу. 
+                Возможно, ссылка устарела или вы допустили опечатку в адресе.
+            </p>
+
+            <div class="max-w-md mx-auto mb-10 relative">
+                <input type="text" placeholder="Поиск по сайту..." class="w-full pl-12 pr-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent shadow-sm">
+                <svg class="w-6 h-6 text-gray-400 absolute left-4 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="index.html" class="px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold rounded-lg hover:shadow-lg hover:opacity-90 transition transform hover:-translate-y-0.5 flex items-center justify-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+                    Вернуться на главную
+                </a>
+                <a href="contacts.html" class="px-8 py-4 bg-white text-purple-600 border-2 border-purple-600 font-bold rounded-lg hover:bg-purple-50 transition flex items-center justify-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+                    Написать в поддержку
+                </a>
+            </div>
+
+            <div class="mt-12 bg-gray-800 rounded-lg p-4 text-left font-mono text-sm text-green-400 shadow-xl max-w-md mx-auto overflow-hidden">
+                <div class="flex gap-2 mb-2">
+                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                </div>
+                <p><span class="text-purple-400">if</span> (page.exists === <span class="text-yellow-300">false</span>) {</p>
+                <p class="pl-4"><span class="text-blue-400">console</span>.log(<span class="text-green-300">"Страница потерялась в пространстве"</span>);</p>
+                <p class="pl-4"><span class="text-purple-400">return</span> <span class="text-yellow-300">null</span>;</p>
+                <p>}</p>
+                <p class="animate-pulse">_</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 py-6 text-center text-gray-500 text-sm">
+        <p>&copy; 2026 Онлайн-курс по программированию. Ошибка 404.</p>
+    </footer>
+</body>
+</html>
