@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цены и тарифы | Онлайн-курс по программированию</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="px-8 py-5 bg-purple-100">
+    <header class="flex items-center justify-between bg-white rounded-lg shadow-md p-4 mb-8">
+        <img src="assets/icons/arm-computer-seeklogo.png" alt="Logo" class="w-20 h-20">
+        <nav>
+            <ul class="flex list-none gap-9">
+                <li><a href="index.html" class="hover:text-purple-600 transition">Главная</a></li>
+                <li><a href="about.html" class="hover:text-purple-600 transition">О курсе</a></li>
+                <li><a href="program.html" class="hover:text-purple-600 transition">Программа</a></li>
+                <li><a href="teachers.html" class="hover:text-purple-600 transition">Преподаватели</a></li>
+                <li><a href="#prices" class="text-purple-600 font-semibold">Цены</a></li>
+                <li><a href="blog.html" class="hover:text-purple-600 transition">Блог</a></li>
+                <li><a href="contacts.html" class="hover:text-purple-600 transition">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl shadow-xl p-12 mb-8 text-white text-center">
+        <h1 class="text-5xl font-bold mb-4">Выберите свой тариф</h1>
+        <p class="text-xl text-purple-100">Инвестиция в ваше будущее с гарантией результата</p>
+    </section>
+
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 -mt-8 relative z-10">
+
+        <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition duration-300 border border-gray-100 flex flex-col">
+            <div class="mb-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">Самостоятельный</h3>
+                <p class="text-gray-500 text-sm">Для тех, кто любит учиться в своем темпе</p>
+            </div>
+            <div class="mb-6">
+                <span class="text-4xl font-bold text-gray-900">49 900 ₽</span>
+                <span class="text-gray-500">/ курс</span>
+                <p class="text-sm text-gray-400 mt-2 line-through">69 900 ₽</p>
+            </div>
+            <ul class="space-y-4 mb-8 flex-1">
+                <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    <span class="text-gray-700">Доступ ко всем видеоурокам</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    <span class="text-gray-700">Домашние задания (без проверки)</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    <span class="text-gray-700">Доступ в общий чат студентов</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    <span class="text-gray-700">Сертификат об окончании</span>
+                </li>
+                <li class="flex items-start gap-3 opacity-50">
+                    <svg class="w-6 h-6 text-gray-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                    <span class="text-gray-400">Проверка домашних заданий</span>
+                </li>
+                <li class="flex items-start gap-3 opacity-50">
+                    <svg class="w-6 h-6 text-gray-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                    <span class="text-gray-400">Помощь в трудоустройстве</span>
+                </li>
+            </ul>
+            <button class="w-full py-3 px-6 border-2 border-purple-600 text-purple-600 font-semibold rounded-lg hover:bg-purple-50 transition">
+                Выбрать тариф
+            </button>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-2xl p-8 transform scale-105 border-2 border-purple-500 relative flex flex-col z-10">
+            <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg">
+                Популярный выбор
+            </div>
+            <div class="mb-6 mt-4">
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">С наставником</h3>
+                <p class="text-gray-500 text-sm">Оптимальный баланс цены и поддержки</p>
+            </div>
+            <div class="mb-6">
+                <span class="text-4xl font-bold text-gray-900">89 900 ₽</span>
+                <span class="text-gray-500">/ курс</span>
+                <p class="text-sm text-gray-400 mt-2 line-through">129 900 ₽</p>
+                <p class="text-xs text-purple-600 font-semibold mt-1">или 15 000 ₽ / мес</p>
+            </div>
+            <ul class="space-y-4 mb-8 flex-1">
+                <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    <span class="text-gray-700 font-medium">Всё, что в тарифе "Самостоятельный"</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    <span class="text-gray-700 font-medium">Проверка ДЗ куратором</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    <span class="text-gray-700 font-medium">Доступ к закрытому чату с менторами</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    <span class="text-gray-700 font-medium">Участие в вебинарах с разбором кода</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    <span class="text-gray-700 font-medium">Помощь в составлении резюме</span>
+                </li>
+            </ul>
+            <button class="w-full py-4 px-6 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold rounded-lg hover:shadow-lg hover:opacity-90 transition">
+                Начать обучение
+            </button>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition duration-300 border border-gray-100 flex flex-col">
+            <div class="mb-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">Личное наставничество</h3>
+                <p class="text-gray-500 text-sm">Максимальная поддержка и гарантия результата</p>
+            </div>
+            <div class="mb-6">
+                <span class="text-4xl font-bold text-gray-900">149 900 ₽</span>
+                <span class="text-gray-500">/ курс</span>
+                <p class="text-sm text-gray-400 mt-2 line-through">199 900 ₽</p>
+                <p class="text-xs text-purple-600 font-semibold mt-1">или 25 000 ₽ / мес</p>
+            </div>
+            <ul class="space-y-4 mb-8 flex-1">
+                <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    <span class="text-gray-700">Всё, что в тарифе "С наставником"</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    <span class="text-gray-700">Личный ментор (Senior разработчик)</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    <span class="text-gray-700">Еженедельные созвоны 1-на-1</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    <span class="text-gray-700">Глубокий Code Review каждого задания</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    <span class="text-gray-700">Mock-собеседования и карьерная стратегия</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    <span class="text-gray-700">Рекомендации в компании-партнеры</span>
+                </li>
+            </ul>
+            <button class="w-full py-3 px-6 border-2 border-purple-600 text-purple-600 font-semibold rounded-lg hover:bg-purple-50 transition">
+                Оставить заявку
+            </button>
+        </div>
+    </section>
+
+    <section class="bg-white rounded-2xl shadow-lg p-12 mb-8 overflow-x-auto">
+        <h2 class="text-3xl font-bold mb-8 text-gray-800 text-center">Сравнение тарифов</h2>
+        
+        <table class="w-full min-w-[600px]">
+            <thead>
+                <tr class="border-b-2 border-gray-100">
+                    <th class="text-left py-4 px-4 text-gray-500 font-medium">Возможности</th>
+                    <th class="text-center py-4 px-4 text-gray-800 font-bold">Самостоятельный</th>
+                    <th class="text-center py-4 px-4 text-purple-600 font-bold bg-purple-50 rounded-t-lg">С наставником</th>
+                    <th class="text-center py-4 px-4 text-gray-800 font-bold">Личное наставничество</th>
+                </tr>
+            </thead>
+            <tbody class="text-gray-700">
+                <tr class="border-b border-gray-50 hover:bg-gray-50">
+                    <td class="py-4 px-4">Доступ к видеоурокам</td>
+                    <td class="text-center py-4 px-4"><svg class="w-6 h-6 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></td>
+                    <td class="text-center py-4 px-4 bg-purple-50/50"><svg class="w-6 h-6 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></td>
+                    <td class="text-center py-4 px-4"><svg class="w-6 h-6 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></td>
+                </tr>
+                <tr class="border-b border-gray-50 hover:bg-gray-50">
+                    <td class="py-4 px-4">Домашние задания</td>
+                    <td class="text-center py-4 px-4 text-sm text-gray-500">Без проверки</td>
+                    <td class="text-center py-4 px-4 bg-purple-50/50"><svg class="w-6 h-6 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></td>
+                    <td class="text-center py-4 px-4"><svg class="w-6 h-6 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></td>
+                </tr>
+                <tr class="border-b border-gray-50 hover:bg-gray-50">
+                    <td class="py-4 px-4">Code Review</td>
+                    <td class="text-center py-4 px-4"><svg class="w-6 h-6 text-gray-300 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></td>
+                    <td class="text-center py-4 px-4 bg-purple-50/50 text-sm">Базовое</td>
+                    <td class="text-center py-4 px-4 font-medium">Детальное</td>
+                </tr>
+                <tr class="border-b border-gray-50 hover:bg-gray-50">
+                    <td class="py-4 px-4">Чат с менторами</td>
+                    <td class="text-center py-4 px-4"><svg class="w-6 h-6 text-gray-300 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></td>
+                    <td class="text-center py-4 px-4 bg-purple-50/50"><svg class="w-6 h-6 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></td>
+                    <td class="text-center py-4 px-4"><svg class="w-6 h-6 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></td>
+                </tr>
+                <tr class="border-b border-gray-50 hover:bg-gray-50">
+                    <td class="py-4 px-4">Личные созвоны</td>
+                    <td class="text-center py-4 px-4"><svg class="w-6 h-6 text-gray-300 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></td>
+                    <td class="text-center py-4 px-4 bg-purple-50/50"><svg class="w-6 h-6 text-gray-300 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></td>
+                    <td class="text-center py-4 px-4 font-medium">Еженедельно</td>
+                </tr>
+                <tr class="border-b border-gray-50 hover:bg-gray-50">
+                    <td class="py-4 px-4">Помощь в трудоустройстве</td>
+                    <td class="text-center py-4 px-4"><svg class="w-6 h-6 text-gray-300 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></td>
+                    <td class="text-center py-4 px-4 bg-purple-50/50"><svg class="w-6 h-6 text-green-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></td>
+                    <td class="text-center py-4 px-4 font-medium">Персональная стратегия</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                    <td class="py-4 px-4">Доступ к материалам</td>
+                    <td class="text-center py-4 px-4">1 год</td>
+                    <td class="text-center py-4 px-4 bg-purple-50/50 font-bold text-purple-600">Навсегда</td>
+                    <td class="text-center py-4 px-4">Навсегда</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="bg-white rounded-2xl shadow-lg p-12 mb-8">
+        <h2 class="text-3xl font-bold mb-8 text-gray-800 text-center">Частые вопросы об оплате</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="p-6 bg-gray-50 rounded-xl">
+                <h3 class="text-lg font-bold text-gray-800 mb-2">💳 Можно ли платить частями?</h3>
+                <p class="text-gray-600">Да, мы предоставляем беспроцентную рассрочку от банка-партнера на 6, 12 или 24 месяца. Вы начинаете платить только после первого занятия.</p>
+            </div>
+            <div class="p-6 bg-gray-50 rounded-xl">
+                <h3 class="text-lg font-bold text-gray-800 mb-2">📄 Выдаёте ли вы документы?</h3>
+                <p class="text-gray-600">Да, после успешного окончания курса вы получаете именной сертификат. Для юридических лиц мы предоставляем полный пакет закрывающих документов.</p>
+            </div>
+            <div class="p-6 bg-gray-50 rounded-xl">
+                <h3 class="text-lg font-bold text-gray-800 mb-2">🔄 Что если курс мне не подойдет?</h3>
+                <p class="text-gray-600">У нас действует гарантия возврата средств в течение первых 14 дней обучения, если вы выполните первые 2 домашних задания и поймете, что формат вам не подходит.</p>
+            </div>
+            <div class="p-6 bg-gray-50 rounded-xl">
+                <h3 class="text-lg font-bold text-gray-800 mb-2">🎁 Есть ли скидки?</h3>
+                <p class="text-gray-600">Мы регулярно проводим акции. Сейчас действует скидка 30% при оплате полной стоимости курса сразу. Также есть скидки для студентов и безработных.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl shadow-xl p-12 mb-8 text-white text-center">
+        <h2 class="text-4xl font-bold mb-4">Готовы инвестировать в себя?</h2>
+        <p class="text-xl mb-8 text-purple-100 max-w-2xl mx-auto">
+            Выберите подходящий тариф и начните путь в IT уже сегодня
+        </p>
+        <div class="flex justify-center gap-4 flex-wrap">
+            <button class="bg-white text-purple-600 px-10 py-4 rounded-lg font-semibold text-lg hover:bg-purple-50 transition shadow-lg">
+                Выбрать тариф
+            </button>
+            <button class="border-2 border-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-purple-600 transition">
+                Получить консультацию
+            </button>
+        </div>
+    </section>
+
+    <footer class="bg-white rounded-lg shadow-md p-6 text-center text-gray-600">
+        <p>&copy; 2026 Онлайн-курс по программированию. Все права защищены.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог и Ресурсы | Онлайн-курс по программированию</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="px-8 py-5 bg-purple-100">
+    <header class="flex items-center justify-between bg-white rounded-lg shadow-md p-4 mb-8">
+        <img src="assets/icons/arm-computer-seeklogo.png" alt="Logo" class="w-20 h-20">
+        <nav>
+            <ul class="flex list-none gap-9">
+                <li><a href="index.html" class="hover:text-purple-600 transition">Главная</a></li>
+                <li><a href="about.html" class="hover:text-purple-600 transition">О курсе</a></li>
+                <li><a href="program.html" class="hover:text-purple-600 transition">Программа</a></li>
+                <li><a href="teachers.html" class="hover:text-purple-600 transition">Преподаватели</a></li>
+                <li><a href="prices.html" class="hover:text-purple-600 transition">Цены</a></li>
+                <li><a href="#blog" class="text-purple-600 font-semibold">Блог</a></li>
+                <li><a href="contacts.html" class="hover:text-purple-600 transition">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl shadow-xl p-12 mb-8 text-white text-center">
+        <h1 class="text-5xl font-bold mb-4">Блог и Ресурсы</h1>
+        <p class="text-xl text-purple-100">Полезные статьи, гайды и бесплатные материалы для разработчиков</p>
+    </section>
+
+    <section class="mb-8 flex justify-center gap-4 flex-wrap">
+        <button class="px-6 py-2 bg-purple-600 text-white rounded-full font-medium shadow-md">Все статьи</button>
+        <button class="px-6 py-2 bg-white text-gray-600 rounded-full font-medium hover:bg-purple-50 hover:text-purple-600 transition shadow-sm">Frontend</button>
+        <button class="px-6 py-2 bg-white text-gray-600 rounded-full font-medium hover:bg-purple-50 hover:text-purple-600 transition shadow-sm">Backend</button>
+        <button class="px-6 py-2 bg-white text-gray-600 rounded-full font-medium hover:bg-purple-50 hover:text-purple-600 transition shadow-sm">Карьера</button>
+        <button class="px-6 py-2 bg-white text-gray-600 rounded-full font-medium hover:bg-purple-50 hover:text-purple-600 transition shadow-sm">Учебные материалы</button>
+    </section>
+
+    <section class="bg-white rounded-2xl shadow-lg overflow-hidden mb-12 hover:shadow-xl transition duration-300">
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="h-64 md:h-auto bg-gray-200">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Featured" class="w-full h-full object-cover">
+            </div>
+            <div class="p-8 md:p-12 flex flex-col justify-center">
+                <span class="text-purple-600 font-bold text-sm mb-2 uppercase tracking-wide">Карьера в IT</span>
+                <h2 class="text-3xl font-bold text-gray-800 mb-4 hover:text-purple-600 cursor-pointer transition">Как подготовиться к первому собеседованию на Junior-разработчика: Полный гайд</h2>
+                <p class="text-gray-600 mb-6 line-clamp-3">
+                    Разбираем типичные вопросы на технических интервью, рассказываем, как вести себя с HR-менеджером и какие проекты лучше показать в портфолио, чтобы получить оффер.
+                </p>
+                <div class="flex items-center justify-between mt-auto">
+                    <div class="flex items-center gap-3">
+                        <img src="https://i.pravatar.cc/150?img=12" alt="Author" class="w-10 h-10 rounded-full">
+                        <div>
+                            <p class="text-sm font-semibold text-gray-800">Алексей Смирнов</p>
+                            <p class="text-xs text-gray-500">15 Октября 2025</p>
+                        </div>
+                    </div>
+                    <a href="#" class="text-purple-600 font-semibold hover:underline flex items-center gap-1">
+                        Читать далее <span>→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-12">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Последние статьи</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 group">
+                <div class="h-48 bg-gray-200 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Coding" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="px-2 py-1 bg-blue-100 text-blue-600 text-xs font-bold rounded">Frontend</span>
+                        <span class="text-gray-400 text-xs">5 мин чтения</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-purple-600 transition">React Hooks: useEffect и useState простыми словами</h3>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">Разбираем два самых важных хука в React на понятных примерах без сложной теории.</p>
+                    <a href="#" class="text-purple-600 text-sm font-semibold hover:underline">Читать статью</a>
+                </div>
+            </article>
+
+            <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 group">
+                <div class="h-48 bg-gray-200 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Code" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="px-2 py-1 bg-green-100 text-green-600 text-xs font-bold rounded">Backend</span>
+                        <span class="text-gray-400 text-xs">8 мин чтения</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-purple-600 transition">REST API vs GraphQL: Что выбрать в 2026 году?</h3>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">Сравниваем два подхода к созданию API, их плюсы, минусы и сферы применения.</p>
+                    <a href="#" class="text-purple-600 text-sm font-semibold hover:underline">Читать статью</a>
+                </div>
+            </article>
+
+            <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 group">
+                <div class="h-48 bg-gray-200 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Team" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="px-2 py-1 bg-purple-100 text-purple-600 text-xs font-bold rounded">Софт-скиллы</span>
+                        <span class="text-gray-400 text-xs">6 мин чтения</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-purple-600 transition">Как работать в команде разработчиков и не сойти с ума</h3>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">Советы по коммуникации, код-ревью и работе с Git в большой команде.</p>
+                    <a href="#" class="text-purple-600 text-sm font-semibold hover:underline">Читать статью</a>
+                </div>
+            </article>
+
+             <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 group">
+                <div class="h-48 bg-gray-200 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Design" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="px-2 py-1 bg-pink-100 text-pink-600 text-xs font-bold rounded">Дизайн</span>
+                        <span class="text-gray-400 text-xs">4 мин чтения</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-purple-600 transition">Основы UI/UX для программиста</h3>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">Почему ваш код может быть идеальным, а интерфейс — ужасным. Базовые принципы.</p>
+                    <a href="#" class="text-purple-600 text-sm font-semibold hover:underline">Читать статью</a>
+                </div>
+            </article>
+
+            <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 group">
+                <div class="h-48 bg-gray-200 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Mobile" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="px-2 py-1 bg-indigo-100 text-indigo-600 text-xs font-bold rounded">Mobile</span>
+                        <span class="text-gray-400 text-xs">7 мин чтения</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-purple-600 transition">React Native или Flutter?</h3>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">Вечный спор кроссплатформенной разработки. Разбираем плюсы и минусы.</p>
+                    <a href="#" class="text-purple-600 text-sm font-semibold hover:underline">Читать статью</a>
+                </div>
+            </article>
+
+            <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 group">
+                <div class="h-48 bg-gray-200 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Database" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="px-2 py-1 bg-yellow-100 text-yellow-600 text-xs font-bold rounded">Базы данных</span>
+                        <span class="text-gray-400 text-xs">10 мин чтения</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-purple-600 transition">SQL для начинающих: SELECT, JOIN, GROUP BY</h3>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">Шпаргалка по основным SQL-запросам, которые нужно знать каждому бэкендеру.</p>
+                    <a href="#" class="text-purple-600 text-sm font-semibold hover:underline">Читать статью</a>
+                </div>
+            </article>
+        </div>
+        
+        <div class="mt-12 text-center">
+            <button class="px-8 py-3 bg-white border border-purple-600 text-purple-600 font-semibold rounded-lg hover:bg-purple-50 transition">
+                Показать еще статьи
+            </button>
+        </div>
+    </section>
+
+    <section class="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-xl p-12 mb-12 text-white">
+        <div class="flex flex-col md:flex-row items-center justify-between mb-10">
+            <div>
+                <h2 class="text-3xl font-bold mb-2">📚 Бесплатные материалы</h2>
+                <p class="text-gray-400">Скачивайте чек-листы, шпаргалки и гайды для обучения</p>
+            </div>
+            <button class="mt-4 md:mt-0 px-6 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg font-semibold transition">
+                Смотреть все материалы
+            </button>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-gray-800/50 p-6 rounded-xl border border-gray-700 hover:border-purple-500 transition cursor-pointer group">
+                <div class="w-12 h-12 bg-purple-900/50 rounded-lg flex items-center justify-center mb-4 text-2xl group-hover:scale-110 transition">📄</div>
+                <h3 class="font-bold text-lg mb-2">Чек-лист Junior Frontend</h3>
+                <p class="text-sm text-gray-400 mb-4">Все темы, которые нужно знать перед собеседованием.</p>
+                <span class="text-xs text-purple-400 font-mono">PDF • 2.4 MB</span>
+            </div>
+
+            <div class="bg-gray-800/50 p-6 rounded-xl border border-gray-700 hover:border-purple-500 transition cursor-pointer group">
+                <div class="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mb-4 text-2xl group-hover:scale-110 transition">⚡</div>
+                <h3 class="font-bold text-lg mb-2">Шпаргалка по CSS Flexbox</h3>
+                <p class="text-sm text-gray-400 mb-4">Все свойства в одной картинке для быстрой верстки.</p>
+                <span class="text-xs text-purple-400 font-mono">PNG • 1.1 MB</span>
+            </div>
+
+            <div class="bg-gray-800/50 p-6 rounded-xl border border-gray-700 hover:border-purple-500 transition cursor-pointer group">
+                <div class="w-12 h-12 bg-green-900/50 rounded-lg flex items-center justify-center mb-4 text-2xl group-hover:scale-110 transition">🚀</div>
+                <h3 class="font-bold text-lg mb-2">Гайд по Git для новичков</h3>
+                <p class="text-sm text-gray-400 mb-4">Основные команды и сценарии работы с репозиторием.</p>
+                <span class="text-xs text-purple-400 font-mono">PDF • 3.5 MB</span>
+            </div>
+
+            <div class="bg-gray-800/50 p-6 rounded-xl border border-gray-700 hover:border-purple-500 transition cursor-pointer group">
+                <div class="w-12 h-12 bg-yellow-900/50 rounded-lg flex items-center justify-center mb-4 text-2xl group-hover:scale-110 transition">💼</div>
+                <h3 class="font-bold text-lg mb-2">Шаблон резюме разработчика</h3>
+                <p class="text-sm text-gray-400 mb-4">Пример идеального резюме, которое проходит HR-фильтры.</p>
+                <span class="text-xs text-purple-400 font-mono">DOCX • 0.5 MB</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white rounded-2xl shadow-lg p-12 mb-8 text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Не пропускайте новые статьи</h2>
+        <p class="text-gray-600 mb-8 max-w-xl mx-auto">Подпишитесь на нашу рассылку. Мы присылаем только полезные материалы, без спама. Раз в неделю.</p>
+        
+        <form class="flex flex-col md:flex-row gap-4 max-w-lg mx-auto">
+            <input type="email" placeholder="Ваш email" class="flex-1 px-6 py-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent">
+            <button type="button" class="px-8 py-4 bg-purple-600 text-white font-bold rounded-lg hover:bg-purple-700 transition shadow-lg">
+                Подписаться
+            </button>
+        </form>
+        <p class="text-xs text-gray-400 mt-4">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+    </section>
+
+    <footer class="bg-white rounded-lg shadow-md p-6 text-center text-gray-600">
+        <p>&copy; 2026 Онлайн-курс по программированию. Все права защищены.</p>
+    </footer>
+</body>
+</html>

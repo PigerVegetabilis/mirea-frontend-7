@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн-курс по программированию | Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="px-8 py-5 bg-purple-100">
+    <header class="flex items-center justify-between bg-white rounded-lg shadow-md p-4 mb-8">
+        <img src="assets/icons/arm-computer-seeklogo.png" alt="Logo" class="w-20 h-20">
+        <nav>
+            <ul class="flex list-none gap-9">
+                <li><a href="about.html" class="hover:text-purple-600 transition">О курсе</a></li>
+                <li><a href="program.html" class="hover:text-purple-600 transition">Программа</a></li>
+                <li><a href="teachers.html" class="hover:text-purple-600 transition">Преподаватели</a></li>
+                <li><a href="prices.html" class="hover:text-purple-600 transition">Цены</a></li>
+                <li><a href="blog.html" class="hover:text-purple-600 transition">Блог</a></li>
+                <li><a href="ontacts.html" class="hover:text-purple-600 transition">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl shadow-xl p-12 mb-8 text-white">
+        <div class="max-w-4xl">
+            <h1 class="text-5xl font-bold mb-6">Освойте программирование с нуля до профессионала</h1>
+            <p class="text-xl mb-8 text-purple-100">Практический онлайн-курс по веб-разработке с персональным наставником и гарантией трудоустройства</p>
+            <div class="flex gap-4">
+                <button class="bg-white text-purple-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-purple-50 transition shadow-lg">
+                    Начать обучение
+                </button>
+                <button class="border-2 border-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-purple-600 transition">
+                    Узнать подробнее
+                </button>
+            </div>
+            <div class="mt-8 flex gap-8 text-sm">
+                <div class="flex items-center gap-2">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                    <span>6 месяцев обучения</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                    <span>50+ практических проектов</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                    <span>Сертификат по окончании</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits bg-white rounded-2xl shadow-lg p-12 mb-8">
+        <h2 class="text-4xl font-bold text-center mb-4 text-gray-800">Преимущества курса</h2>
+        <p class="text-center text-gray-600 mb-12 text-lg">Почему тысячи студентов выбирают наше обучение</p>
+        
+        <div class="grid grid-cols-3 gap-8">
+            <div class="text-center p-6 rounded-xl hover:shadow-lg transition bg-purple-50">
+                <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Актуальная программа</h3>
+                <p class="text-gray-600">Обучаем только тем технологиям, которые востребованы на рынке прямо сейчас</p>
+            </div>
+
+            <div class="text-center p-6 rounded-xl hover:shadow-lg transition bg-purple-50">
+                <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Персональный наставник</h3>
+                <p class="text-gray-600">Каждому студенту закрепляется опытный ментор для поддержки и проверки заданий</p>
+            </div>
+
+            <div class="text-center p-6 rounded-xl hover:shadow-lg transition bg-purple-50">
+                <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Помощь в трудоустройстве</h3>
+                <p class="text-gray-600">Составляем резюме, готовим к собеседованиям, помогаем найти работу</p>
+            </div>
+
+            <div class="text-center p-6 rounded-xl hover:shadow-lg transition bg-purple-50">
+                <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Практика на реальных проектах</h3>
+                <p class="text-gray-600">Работаем над настоящими проектами, которые можно добавить в портфолио</p>
+            </div>
+
+            <div class="text-center p-6 rounded-xl hover:shadow-lg transition bg-purple-50">
+                <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Гибкий график</h3>
+                <p class="text-gray-600">Учитесь в удобное время, совмещая с работой или учебой</p>
+            </div>
+
+            <div class="text-center p-6 rounded-xl hover:shadow-lg transition bg-purple-50">
+                <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Доступ навсегда</h3>
+                <p class="text-gray-600">Все материалы курса остаются с вами после окончания обучения</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews bg-white rounded-2xl shadow-lg p-12 mb-8">
+        <h2 class="text-4xl font-bold text-center mb-4 text-gray-800">Отзывы студентов</h2>
+        <p class="text-center text-gray-600 mb-12 text-lg">Узнайте, что говорят наши выпускники о курсе</p>
+        
+        <div class="grid grid-cols-3 gap-8">
+            <div class="bg-purple-50 p-6 rounded-xl">
+                <div class="flex items-center mb-4">
+                    <img src="https://i.pravatar.cc/150?img=1" alt="Student" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-semibold">Анна Петрова</h4>
+                        <p class="text-sm text-gray-600">Выпускница 2025</p>
+                    </div>
+                </div>
+                <div class="flex text-yellow-400 mb-3">
+                    ★★★★★
+                </div>
+                <p class="text-gray-700">"Курс превзошел все ожидания! За 6 месяцев я освоила профессию frontend-разработчика и уже работаю в IT-компании. Наставник всегда помогал и поддерживал."</p>
+            </div>
+
+            <div class="bg-purple-50 p-6 rounded-xl">
+                <div class="flex items-center mb-4">
+                    <img src="https://i.pravatar.cc/150?img=3" alt="Student" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-semibold">Михаил Соколов</h4>
+                        <p class="text-sm text-gray-600">Выпускник 2025</p>
+                    </div>
+                </div>
+                <div class="flex text-yellow-400 mb-3">
+                    ★★★★★
+                </div>
+                <p class="text-gray-700">"Отличная программа обучения! Много практики, понятные объяснения сложных тем. Особенно понравился блок по React. Рекомендую всем, кто хочет войти в IT!"</p>
+            </div>
+
+            <div class="bg-purple-50 p-6 rounded-xl">
+                <div class="flex items-center mb-4">
+                    <img src="https://i.pravatar.cc/150?img=5" alt="Student" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-semibold">Елена Васильева</h4>
+                        <p class="text-sm text-gray-600">Выпускница 2024</p>
+                    </div>
+                </div>
+                <div class="flex text-yellow-400 mb-3">
+                    ★★★★★
+                </div>
+                <p class="text-gray-700">"Сменила профессию благодаря этому курсу. Была бухгалтером, теперь работаю веб-разработчиком. Спасибо за качественное образование и помощь в трудоустройстве!"</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl shadow-xl p-12 mb-8 text-white text-center">
+        <h2 class="text-4xl font-bold mb-4">Готовы начать свой путь в программировании?</h2>
+        <p class="text-xl mb-8 text-purple-100 max-w-2xl mx-auto">Присоединяйтесь к нашему курсу прямо сейчас и получите скидку 20% на первый месяц обучения</p>
+        
+        <div class="flex justify-center gap-4 mb-8">
+            <button class="bg-white text-purple-600 px-10 py-4 rounded-lg font-semibold text-lg hover:bg-purple-50 transition shadow-lg">
+                Записаться на курс
+            </button>
+            <button class="border-2 border-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-purple-600 transition">
+                Бесплатная консультация
+            </button>
+        </div>
+        
+        <p class="text-purple-200 text-sm">Осталось 15 мест по специальной цене</p>
+    </section>
+
+    <footer class="bg-white rounded-lg shadow-md p-6 text-center text-gray-600">
+        <p>&copy; 2026 Онлайн-курс по программированию. Все права защищены.</p>
+    </footer>
+</body>
+</html>
